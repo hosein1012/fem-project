@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+.bigBox{
+    border: 0px solid;
+    color: black;
+    background-color: white;
+    width: 30%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.resultDiv{
+    font-size: 50px;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    border: 0px solid;
+    padding: 20px 5px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    text-align: right;
+}
+
+.clearButton{
+    border: 1px solid;
+    font-size: 40px;
+    color: black;
+    background-color: #d8d9db;
+    width: 50%;
+    height: 100px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.clearButton:hover{
+    background-color: #ebebeb;
+}
+
+.backSpaceButton{
+    border: 1px solid;
+    font-size: 40px;
+    color: black;
+    background-color: #d8d9db;
+    width: 25%;
+    height: 100px;
+    align-items: center;
+    cursor: pointer;
+}
+    
+.operatorButton , .equalButton{
+    border: 1px solid black;
+    font-size: 40px;
+    background-color: #df974c;
+    color: white;
+    width: 25%;
+    height: 100px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.numberButton{
+    border: 1px solid;
+    font-size: 40px;
+    background-color: #d8d9db;
+    color: black;
+    width: 25%;
+    height: 100px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.zeroButton{
+    border: 1px solid;
+    font-size: 40px;
+    color: black;
+    background-color: #d8d9db;
+    width: 75%;
+    height: 100px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    border: 0px solid black;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ .ai-stretch {
+    align-items: stretch;
+    height: 200px;
+}
+
+ .aj-stretch {
+    align-items: stretch;
+    width: 75%;
+}
+
+.column {
+    flex-direction: column;
+}
+.row {
+	flex-direction: row;
+}
+
+.clearButton:hover{
+    background-color: #ebebeb;
+}
+
+button:hover{
+    background-color: #ebebeb;
+}
+
+button:active{
+    background-color: #bbbcbe;
+}
